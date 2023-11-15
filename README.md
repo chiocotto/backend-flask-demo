@@ -10,5 +10,5 @@
 3. プルリクエストを提出する
 
 ## 課題一覧
-- [課題1](ASSIGNMENT1.md)
-- [課題2](ASSIGNMENT2.md)
+- [課題1](https://github.com/chiocotto/backend-flask-demo/issues/1)
+- [課題2](https://github.com/chiocotto/backend-flask-demo/issues/2)
