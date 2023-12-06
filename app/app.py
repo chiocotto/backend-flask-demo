@@ -1,8 +1,8 @@
-# 簡単なindexページの作成を行っています。
 from flask import Flask
+import json
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/api")
 def index():
-    return "index page"
+    return json.dumps({"message":"Hello World"})
