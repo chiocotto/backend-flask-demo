@@ -9,6 +9,4 @@
 2. その課題をブランチを分けて達成する
 3. プルリクエストを提出する
 
-## 課題一覧
-- [課題1](https://github.com/chiocotto/backend-flask-demo/issues/1)
-- [課題2](https://github.com/chiocotto/backend-flask-demo/issues/2)
+[課題一覧](https://github.com/chiocotto/backend-flask-demo/issues)
