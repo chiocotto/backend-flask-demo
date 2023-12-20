@@ -8,3 +8,17 @@ services:
     volumes:
       - ./app:/usr/src/app
     command: flask run --host=0.0.0.0
+      
+  db:
+    image: mariadb
+    restart: always
+    ports:
+      - 3307:3306
+    volumes:
+      - "./mysql:/var/lib/mysql"
+      - "./initdb.d:/docker-entrypoint-initdb.d"
+    environment:
+      MARIADB_DATABASE: first_database
+      MARIADB_USER: username
+      MARIADB_PASSWORD: secret
+      MARIADB_ROOT_PASSWORD: password
